@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class ConnectionDemo {
 
     static final String databasePrefix ="cs366-2261_massmanbs23";
-    static final String netID ="massmanBS23"; // Please enter your netId
+    static final String netID ="massmanbs23"; // Please enter your netId
     static final String hostName ="washington.uww.edu"; //140.146.23.39 or washington.uww.edu
     static final String databaseURL ="jdbc:mariadb://"+hostName+"/"+databasePrefix;
     static final String password="bm2921"; // please enter your own password
