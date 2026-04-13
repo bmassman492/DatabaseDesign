@@ -9,11 +9,11 @@ import java.sql.Statement;
 
 public class SimpleQueryDemo {
 
-	 	static final String databasePrefix ="cs366-nguyenh";
-	    static final String netID ="nguyenh"; // Please enter your netId
-	    static final String hostName ="washington.uww.edu"; //140.146.23.39 or washington.uww.edu
-	    static final String databaseURL ="jdbc:mariadb://"+hostName+"/"+databasePrefix;
-	    static final String password="hien123"; // please enter your own password
+    static final String databasePrefix ="cs366-2261_massmanbs23";
+    static final String netID ="massmanbs23"; // Please enter your netId
+    static final String hostName ="washington.uww.edu"; //140.146.23.39 or washington.uww.edu
+    static final String databaseURL ="jdbc:mariadb://"+hostName+"/"+databasePrefix;
+    static final String password="bm2921"; // please enter your own password
 	  
 	    private Connection connection = null;
         private Statement statement = null;
